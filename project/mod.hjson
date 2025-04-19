@@ -5,15 +5,26 @@
   description: "[#7C7979]M[#FF3838]T[#FE9A30]B[#5DCBFF]U – [#7C7979]More [#FF3838]Turrets, [#FE9A30]Blocks, [#FFFFFF]and [#5DCBFF]Units [#FFFFFF]than ever! And I am just getting started – more [#FF3838]T[#FE9A30]B[#5DCBFF]U [#FFFFFF]features are on the way! :) (v.1.0.0)",
 
   main: null,
-  
+
+  minGameVersion: "146",
+
   content: [
     "content/items",   // 아이템 폴더
     "content/blocks",  // 블록 폴더
     "content/units"    // 유닛 폴더
   ],
 
-  // 블록에 Trigger 포탑 추가
+  // Trigger 포탑 블록 등록
   blocks: [
-    "content/blocks/triggerBlock"  // Trigger 포탑 블록 경로
+    "content/blocks/TriggerBlock"
+  ],
+
+  // 이미지와 사운드 리소스 등록
+  sprites: [
+    "sprites/blocks/Trigger.png"  // Trigger 블록 이미지
+  ],
+
+  sounds: [
+    "1x1_heavy_fire"  // 포탑 발사 사운드
   ]
 }
