@@ -1,0 +1,23 @@
+{
+  "type": "Turret",
+  "name": "trigger",
+  "localizedName": "Trigger",
+  "description": "Test turret",
+  "health": 420,
+  "size": 2,
+  "category": "turret",
+  "requirements": [
+    { "item": "copper", "amount": 100 }
+  ],
+  "reloadTime": 1.5,
+  "ammo": {
+    "graphite": {
+      "type": "ItemBulletType",
+      "speed": 3.0,
+      "damage": 20
+    }
+  },
+  "shootSound": "shootSnap",
+  "targetGround": true,
+  "targetAir": false
+}
