@@ -7,13 +7,13 @@
   main: null,
   
   content: [
-    "content/items",   // 아이템 폴더
-    "content/blocks",  // 블록 폴더
-    "content/units"    // 유닛 폴더
+    "content/items"
+    "content/blocks"
+    "content/units"
   ],
 
   // 블록에 Trigger 포탑 추가
   blocks: [
-    "content/blocks/triggerBlock"  // Trigger 포탑 블록 경로
+    "content/blocks/triggerBlock"
   ]
 }
