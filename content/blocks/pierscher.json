@@ -30,7 +30,7 @@
       "lightOpacity": 0.7,
       "hitEffect": "hitBulletSmall",
       "despawnEffect": "none",
-      "shootEffect": "shootLargeSmoke",  // 여기에 이펙트 추가
+      "shootEffect": "shockwave",  // 여기에 이펙트 추가
       "shootSound": "heavyfire.wav"
     }
   },
