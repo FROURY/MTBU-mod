@@ -2,7 +2,7 @@
   "type": "Turret",
   "name": "trigger",
   "localizedName": "Trigger",
-  "description": "Shoots Silicon as Long Range, Different Version of Hail",
+  "description": "Test turret",
   "health": 420,
   "size": 2,
   "category": "turret",
@@ -12,30 +12,15 @@
   "reloadTime": 1.5,
   "ammo": {
     "silicon": {
-      "type": "ArtilleryBulletType",
-      "damage": 45,
-      "speed": 1.6,
-      "lifetime": 110,
-      "splashDamage": 70,
-      "splashDamageRadius": 25,
-      "width": 8,
-      "height": 10,
-      "trailEffect": "smokeTrail",
-      "trailSpacing": 5,
-      "hitEffect": "blastExplosion",
-      "smokeEffect": "shootSmoke",
-      "despawnEffect": "smokeCloud",
-      "hitShake": 2.5,
-      "shootEffect": "shootBig",
-      "shootSound": "artilleryShoot",
-      "lightColor": "ffaacc",
-      "lightRadius": 30,
-      "lightOpacity": 0.6,
-      "collidesAir": false,
-      "collidesGround": true
+      "type": "BombBulletType",
+      "damage": 50,
+      "speed": 1.8,
+      "lifetime": 100,
+      "explosionDamage": 100,
+      "explosionRadius": 40
     }
   },
-  "shootSound": "shootSnap",
+  "shootSound": "1x1_heavy_fire",
   "targetGround": true,
   "targetAir": false
 }
