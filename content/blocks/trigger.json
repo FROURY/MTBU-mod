@@ -10,12 +10,12 @@
     { "item": "copper", "amount": 100 }
   ],
   "reload": 52.8,
-  "range": 23,
+  "range": 300,
   "ammoTypes": {
     "silicon": {
       "type": "BombBulletType",
-      "speed": 14.5,
-      "lifetime": 3,
+      "speed": 19.5,
+      "lifetime": 40,
       "damage": 120,
       "width": 8,
       "height": 8,
