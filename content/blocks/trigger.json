@@ -2,25 +2,38 @@
   "type": "ItemTurret",
   "name": "trigger",
   "localizedName": "Trigger",
-  "description": "Test turret",
+  "description": "Test turret with explosive rounds.",
   "health": 420,
   "size": 2,
   "category": "turret",
   "requirements": [
     { "item": "copper", "amount": 100 }
   ],
-  "reload": 5.5,
+  "reload": 1.8,
   "ammoTypes": {
     "silicon": {
       "type": "BombBulletType",
-      "damage": 530,
-      "speed": 1.8,
-      "lifetime": 100,
-      "explosionDamage": 100,
-      "explosionRadius": 40
+      "speed": 2.5,
+      "lifetime": 90,
+      "damage": 30,
+      "width": 8,
+      "height": 8,
+      "hitEffect": "blastExplosion",
+      "smokeEffect": "shootSmoke",
+      "shootEffect": "shootBig",
+      "despawnEffect": "smokeCloud",
+      "explosionDamage": 80,
+      "explosionRadius": 40,
+      "hitShake": 2.5,
+      "lightColor": "ff5533",
+      "lightRadius": 35,
+      "lightOpacity": 0.6,
+      "collidesGround": true,
+      "collidesAir": false,
+      "shootSound": "1x1_heavy_fire"
     }
   },
-  "shootSound": "1x1_heavy_fire.wav",
+  "shootSound": "1x1_heavy_fire",
   "targetGround": true,
   "targetAir": false
 }
