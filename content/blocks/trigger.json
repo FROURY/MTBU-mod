@@ -9,7 +9,7 @@
   "requirements": [
     { "item": "copper", "amount": 100 }
   ],
-  "reload": 25.8,
+  "reload": 35.8,
   "ammoTypes": {
     "silicon": {
       "type": "BombBulletType",
