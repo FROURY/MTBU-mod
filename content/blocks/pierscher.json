@@ -30,32 +30,26 @@
       "lightOpacity": 0.7,
       "hitEffect": "hitBulletSmall",
       "despawnEffect": "none",
-      "shootEffect": "shootMedium",
-      "hitShake": 6,
-      "shootSound": "heavyfire.wav",
-    },
-    "copper": {
-      "type": "PierceBulletType",
-      "speed": 5.5,
-      "lifetime": 30,
-      "damage": 22,
-      "width": 6,
-      "height": 10,
-      "pierce": true,
-      "pierceBuilding": false,
-      "pierceCap": 2,
-      "knockback": 0.5,
-      "lightColor": "ffaa66",
-      "lightRadius": 20,
-      "lightOpacity": 0.6,
-      "hitEffect": "hitBulletSmall",
-      "despawnEffect": "none",
-      "shootEffect": "shootSmall",
-      "hitShake": 2,
+      "shootEffect": "customShootEffect",  // 커스텀 발사 효과 적용
       "shootSound": "heavyfire.wav"
     }
   },
   "shootSound": "heavyfire.wav",
   "targetGround": true,
-  "targetAir": true
+  "targetAir": true,
+  "effects": [
+    {
+      "name": "customShootEffect",  // 커스텀 효과의 이름
+      "particles": [
+        {
+          "sprite": "smoke",         // 파티클 스프라이트 (게임에서 실제로 정의된 파티클)
+          "color": "ffffff",         // 파티클 색상 (흰색)
+          "size": 5,                 // 파티클 크기
+          "lifetime": 30,            // 파티클 지속 시간
+          "alpha": 0.5,              // 파티클 투명도 (0은 완전 투명, 1은 완전 불투명)
+          "speed": 2                 // 파티클 속도
+        }
+      ]
+    }
+  ]
 }
