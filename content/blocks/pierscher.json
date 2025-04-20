@@ -30,7 +30,7 @@
       "lightOpacity": 0.7,
       "hitEffect": "hitBulletSmall",
       "despawnEffect": "none",
-      "shootEffect": "customShootEffect",  // 커스텀 발사 효과 적용
+      "shootEffect": "231",  // 커스텀 발사 효과 적용
       "shootSound": "heavyfire.wav"
     }
   },
@@ -39,7 +39,7 @@
   "targetAir": true,
   "effects": [
     {
-      "name": "customShootEffect",  // 커스텀 효과의 이름
+      "name": "231",  // 커스텀 효과의 이름
       "particles": [
         {
           "sprite": "smoke",         // 파티클 스프라이트 (게임에서 실제로 정의된 파티클)
