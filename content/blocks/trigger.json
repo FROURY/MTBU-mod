@@ -9,18 +9,18 @@
   "requirements": [
     { "item": "copper", "amount": 100 }
   ],
-  "reload": 1.5,
+  "reload": 5.5,
   "ammoTypes": {
     "silicon": {
       "type": "BombBulletType",
-      "damage": 50,
+      "damage": 530,
       "speed": 1.8,
       "lifetime": 100,
       "explosionDamage": 100,
       "explosionRadius": 40
     }
   },
-  "shootSound": "1x1_heavy_fire",
+  "shootSound": "1x1_heavy_fire.wav",
   "targetGround": true,
   "targetAir": false
 }
