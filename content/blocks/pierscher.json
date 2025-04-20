@@ -33,7 +33,6 @@
       "shootEffect": "shootMedium",
       "hitShake": 6,
       "shootSound": "heavyfire.wav",
-      "shootEffect": "cameraShake(10, 1)"  // 20은 흔들림 강도, 1은 지속시간
     },
     "copper": {
       "type": "PierceBulletType",
