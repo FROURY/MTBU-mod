@@ -13,8 +13,8 @@
   "ammoTypes": {
     "silicon": {
       "type": "BombBulletType",
-      "speed": 65.5,
-      "lifetime": 470,
+      "speed": 2.5,
+      "lifetime": 3470,
       "damage": 120,
       "width": 8,
       "height": 8,
