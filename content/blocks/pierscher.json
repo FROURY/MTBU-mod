@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "name": "pierscher",
   "localizedName": "Pierscher",
-  "description": "Heavy turret that uses thorium and copper rounds to pierce multiple enemies.",
+  "description": "The Pierscher fires heavy ammo, making it highly effective against heavily armored units.",
   "health": 420,
   "size": 2,
   "category": "turret",
@@ -11,28 +11,29 @@
     { "item": "copper", "amount": 140 },
     { "item": "metaglass", "amount": 10 }
   ],
-  "reload": 52.8,
+  "reload": 122.8,
   "range": 300,
   "ammoTypes": {
     "thorium": {
       "type": "PierceBulletType",
-      "speed": 6.5,
-      "lifetime": 35,
-      "damage": 36,
+      "speed": 12.5,
+      "lifetime": 235,
+      "damage": 136,
       "width": 7,
       "height": 12,
       "pierce": true,
       "pierceBuilding": false,
-      "pierceCap": 4,
+      "pierceCap": 2,
       "knockback": 0.8,
       "lightColor": "ffcc88",
       "lightRadius": 30,
       "lightOpacity": 0.7,
       "hitEffect": "hitBulletSmall",
       "despawnEffect": "none",
-      "shootEffect": "shootSmall",
-      "hitShake": 3,
-      "shootSound": "shoot"
+      "shootEffect": "shootMedium",
+      "hitShake": 6,
+      "shootSound": "heavyfire.wav",
+      "shootEffect": "cameraShake(10, 1)"  // 20은 흔들림 강도, 1은 지속시간
     },
     "copper": {
       "type": "PierceBulletType",
@@ -52,10 +53,10 @@
       "despawnEffect": "none",
       "shootEffect": "shootSmall",
       "hitShake": 2,
-      "shootSound": "shoot"
+      "shootSound": "heavyfire.wav"
     }
   },
-  "shootSound": "shoot",
+  "shootSound": "heavyfire.wav",
   "targetGround": true,
   "targetAir": true
 }
