@@ -9,19 +9,19 @@
   "requirements": [
     { "item": "copper", "amount": 100 }
   ],
-  "reload": 35.8,
+  "reload": 52.8,
+  "range": 23,
   "ammoTypes": {
     "silicon": {
       "type": "BombBulletType",
-      "speed": 2.5,
-      "lifetime": 3,
+      "speed": 14.5,
+      "lifetime": 3470,
       "damage": 120,
       "width": 8,
       "height": 8,
       "hitEffect": "blastExplosion",
       "shootEffect": "shootBig",
       "explosionDamage": 80,
-      "explosionRadius": 70,
       "hitShake": 2.5,
       "lightColor": "ff5533",
       "lightRadius": 35,
