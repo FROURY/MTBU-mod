@@ -1,51 +1,42 @@
-{
-  "type": "ItemTurret",
-  "name": "pierscher",
-  "localizedName": "Pierscher",
-  "description": "Heavy turret that uses thorium and copper rounds.",
-  "health": 420,
-  "size": 2,
-  "category": "turret",
-  "requirements": [
-    { "item": "titanium", "amount": 120 },
-    { "item": "copper", "amount": 140 },
-    { "item": "metaglass", "amount": 10 }
-  ],
-  "reload": 52.8,
-  "range": 300,
-  "ammoTypes": {
-    "thorium": {
-      "type": "BombBulletType",
-      "speed": 20,
-      "lifetime": 48,
-      "damage": 51,   
-      "width": 9,
-      "height": 9,
-      "hitShake": 6,   
-      "lightColor": "ffdd99",
-      "lightRadius": 40,
-      "lightOpacity": 0.7,
-      "collidesGround": true,
-      "collidesAir": true,   
-      "shootSound": "sounds/heavyfire.wav"
-    },
-    "copper": {
-      "type": "BulletType",
-      "speed": 6,
-      "lifetime": 35,
-      "damage": 30,   
-      "width": 5,
-      "height": 7,
-      "hitShake": 3,   
-      "lightColor": "ffaa66",
-      "lightRadius": 20,
-      "lightOpacity": 0.5,
-      "collidesGround": true,
-      "collidesAir": true,   
-      "shootSound": "sounds/heavyfire.wav"
-    }
+"ammoTypes": {
+  "thorium": {
+    "type": "PierceBulletType",
+    "speed": 6.5,
+    "lifetime": 35,
+    "damage": 36,
+    "width": 7,
+    "height": 12,
+    "pierce": true,
+    "pierceBuilding": false,
+    "pierceCap": 4,
+    "knockback": 0.8,
+    "lightColor": "ffcc88",
+    "lightRadius": 30,
+    "lightOpacity": 0.7,
+    "hitEffect": "hitBulletSmall",
+    "despawnEffect": "none",
+    "shootEffect": "shootSmall",
+    "hitShake": 3,
+    "shootSound": "shoot"
   },
-  "shootSound": "sounds/heavyfire.wav",
-  "targetGround": true,
-  "targetAir": true   
+  "copper": {
+    "type": "PierceBulletType",
+    "speed": 5.5,
+    "lifetime": 30,
+    "damage": 22,
+    "width": 6,
+    "height": 10,
+    "pierce": true,
+    "pierceBuilding": false,
+    "pierceCap": 2,
+    "knockback": 0.5,
+    "lightColor": "ffaa66",
+    "lightRadius": 20,
+    "lightOpacity": 0.6,
+    "hitEffect": "hitBulletSmall",
+    "despawnEffect": "none",
+    "shootEffect": "shootSmall",
+    "hitShake": 2,
+    "shootSound": "shoot"
+  }
 }
