@@ -27,7 +27,7 @@
       "lightOpacity": 0.7,
       "collidesGround": true,
       "collidesAir": true,   
-      "shootSound": "sounds/1x1_heavy_fire.wav"
+      "shootSound": "sounds/heavyfire.wav"
     },
     "copper": {
       "type": "BulletType",
@@ -42,10 +42,10 @@
       "lightOpacity": 0.5,
       "collidesGround": true,
       "collidesAir": true,   
-      "shootSound": "sounds/1x1_heavy_fire.wav"
+      "shootSound": "sounds/heavyfire.wav"
     }
   },
-  "shootSound": "sounds/1x1_heavy_fire.wav",
+  "shootSound": "sounds/heavyfire.wav",
   "targetGround": true,
   "targetAir": true   
 }
