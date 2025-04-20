@@ -14,7 +14,7 @@
     "silicon": {
       "type": "BombBulletType",
       "speed": 2.5,
-      "lifetime": 3470,
+      "lifetime": 3,
       "damage": 120,
       "width": 8,
       "height": 8,
