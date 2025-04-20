@@ -30,10 +30,10 @@
       "lightOpacity": 0.6,
       "collidesGround": true,
       "collidesAir": false,
-      "shootSound": "sounds/1x1_heavy_fire.wav"  
+      "shootSound": "1x1_heavy_fire.wav"  // .wav 확장자 포함
     }
   },
-  "shootSound": "sounds/1x1_heavy_fire.wav",  
+  "shootSound": "1x1_heavy_fire.wav",  // .wav 확장자 포함
   "targetGround": true,
   "targetAir": false
 }
