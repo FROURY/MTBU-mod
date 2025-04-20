@@ -31,10 +31,10 @@
       "hitEffect": "hitBulletSmall",
       "despawnEffect": "none",
       "shootEffect": "shockwave",
-      "shootSound": "sounds/heavyfire.wav"
+      "shootSound": "explosionbig"
     }
   },
-  "shootSound": "sounds/heavyfire.wav",
+  "shootSound": "explosionbig",
   "targetGround": true,
   "targetAir": true
 }
